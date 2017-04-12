@@ -6,6 +6,8 @@ Package.describe({
 });
 
 Npm.depends({
+  'react': '15.5.2',
+  'react-dom': '15.5.2',
   'react-addons-transition-group': '15.5.2',
   'react-addons-css-transition-group': '15.5.2',
   'react-addons-linked-state-mixin': '15.5.2',
@@ -18,7 +20,7 @@ Npm.depends({
 
 Package.onUse(function(api, where) {
   api.versionsFrom('1.4.4.1');
-  api.use([ 'ecmascript', 'templating', 'underscore' ]);
+  api.use([ 'ecmascript', 'blaze', 'templating', 'underscore' ]);
   api.mainModule('lib.jsx', 'client');
   api.export('BlazeToReact');
 });
