@@ -6,14 +6,14 @@ Package.describe({
 });
 
 Npm.depends({
-    'react-addons-transition-group': '15.5.2',
-    'react-addons-css-transition-group': '15.5.2',
-    'react-addons-linked-state-mixin': '15.5.2',
-    'react-addons-create-fragment': '15.5.3',
-    'react-addons-update': '15.5.2',
-    'react-addons-pure-render-mixin': '15.5.2',
-    'react-addons-test-utils': '15.5.1',
-    'react-addons-perf': '15.4.2'
+  'react-addons-transition-group': '15.5.2',
+  'react-addons-css-transition-group': '15.5.2',
+  'react-addons-linked-state-mixin': '15.5.2',
+  'react-addons-create-fragment': '15.5.3',
+  'react-addons-update': '15.5.2',
+  'react-addons-pure-render-mixin': '15.5.2',
+  'react-addons-test-utils': '15.5.1',
+  'react-addons-perf': '15.4.2'
 });
 
 Package.onUse(function(api, where) {
