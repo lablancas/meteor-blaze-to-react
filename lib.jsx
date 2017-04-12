@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import _ from 'meteor/underscore';
 
 export default class BlazeToReact extends Component {
   renderBlaze() {
