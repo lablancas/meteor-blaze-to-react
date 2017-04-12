@@ -28,5 +28,5 @@ export default class BlazeToReact extends Component {
   render() {
     return <div ref={this.props.blazeTemplate}/>
   }
-});
+};
 
